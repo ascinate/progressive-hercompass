@@ -1,8 +1,26 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Head from 'next/head'
+import { Inter, DM_Sans, Open_Sans, Be_Vietnam_Pro } from 'next/font/google';
+import './globals.css';
+import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ImportBsJS from "../app/components/ImportBsJS";
 
 const inter = Inter({ subsets: ['latin'] })
+const dmSans = DM_Sans({
+  variable: "--font-dmSans-sans",
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+});
+const openSans = Open_Sans({
+  variable: "--font-openSans-sans",
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+});
+
+const beVietnamPro = Be_Vietnam_Pro({
+  variable: "--font-beVietnamPro-sans",
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,8 +33,23 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="manifest" href="/manifest.json"></link>
+        <style>
+          {`
+           .navbar-expand-lg .navbar-nav .nav-link,
+           .full-bg-footer h4{
+                font-family: ${dmSans.style.fontFamily};
+           }
+          .banner-div p,
+          .text-sub-paara{
+             font-family: ${beVietnamPro.style.fontFamily};
+          }
+          `}
+        </style>
       </Head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        
+        <ImportBsJS/>
+        {children}</body>
     </html>
   )
 }
