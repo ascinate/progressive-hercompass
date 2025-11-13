@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import CommunityBanner from '../components/CommunityBanner';
 import Link from 'next/link';
 import MobileMenus from '../components/MobileMenus';
+import LoginModal from '../components/LogiModal';
+import SignupModal from '../components/SignupModal';
 
 export default function Community() {
 
@@ -384,6 +386,8 @@ export default function Community() {
 
       <Footer/>
       <MobileMenus/>
+      <LoginModal/>
+      <SignupModal/>
    
     </>
   )

@@ -815,6 +815,18 @@ div.tags-bg015 {
 .min-heights {
     height: 485px !important;
 }
+.logoin-modals h2{ color: var(--head-text); font-weight: 700; font-size: 22px; }
+.logoin-modals p{ color: #b7b7b7; font-weight: 200; font-size: 15px; }
+.logoin-modals .form-label{ font-size: 15px; margin-bottom: 0; }
+.logoin-modals .form-group{ margin-top:25px; }
+.logoin-modals .form-control{ border-radius: 12px; height: 50px; }
+.logoin-modals .form-control:focus{ border: solid 1px var(--button-color); }
+.cl-fogets{ border: none; font-size: 14px !important; margin-bottom: 10px !important; }
+.btn-logins{ background: #6d51f9 !important; color: var(--whitecolor) !important; border-radius: 12px !important; padding: 12px; 
+	font-weight: 600; }
+.signup-btn1{ color: #6d51f9 !important; }
+.logoin-modals .form-label{ margin-bottom: 7px; }
+
 @media(max-width:910px){
  .navbar>.container{
      flex-wrap: wrap;
@@ -971,6 +983,27 @@ div.tags-bg015 {
   }
   .cm-heads{
     height: auto;
+  }
+  .tops-sections .step-indicator,
+  .actives-linse{
+    width: 100%;
+  }
+  .progress{
+    margin-left:0 !important;
+  }
+  .bodys-parts-div015 .form-check,
+  .bodys-parts-div015 .form-sl{
+    margin-bottom: 10px;
+  }
+  .tell-heading{
+    font-size: 20px;
+  }
+  .text-div-heading p {
+    font-size: 11px;
+  }
+  .btn-close{
+    right: -6px !important;
+    top:-30px;
   }
 }
 @media(max-width:560px){

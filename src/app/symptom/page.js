@@ -7,6 +7,8 @@ import MobileMenus from '../components/MobileMenus';
 import BubbleChart from '../components/BubbleChart';
 import LineChart from '../components/LineChart';
 import BarChart from '../components/BarChart';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LogiModal';
 
 export default function Symptom() { 
   return (
@@ -305,6 +307,8 @@ export default function Symptom() {
 
       <Footer/>
       <MobileMenus/>
+      <SignupModal/>
+      <LoginModal/>
    
     </>
   )

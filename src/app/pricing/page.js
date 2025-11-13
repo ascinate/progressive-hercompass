@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import PricingBanner from '../components/PricingBanner';
 import Link from 'next/link';
 import MobileMenus from '../components/MobileMenus';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LogiModal';
 
 export default function Pricing() {
 
@@ -154,6 +156,8 @@ export default function Pricing() {
 
       <Footer/>
       <MobileMenus/>
+      <SignupModal/>
+      <LoginModal/>
    
     </>
   )

@@ -5,6 +5,8 @@ import Link from 'next/link';
 import MobileMenus from '../components/MobileMenus';
 import NutriBanner from '../components/NutriBanner';
 import BarChart from '../components/BarChart';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LogiModal';
 
 export default function Nutrition() { 
   return (
@@ -292,6 +294,8 @@ export default function Nutrition() {
 
       <Footer/>
       <MobileMenus/>
+      <SignupModal/>
+      <LoginModal/>
    
     </>
   )

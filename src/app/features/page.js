@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import FeatureBanner from '../components/FeatureBanner';
 import Link from 'next/link';
 import MobileMenus from '../components/MobileMenus';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LogiModal';
 
 export default function Features() {
 
@@ -185,6 +187,8 @@ export default function Features() {
 
       <Footer/>
       <MobileMenus/>
+      <SignupModal/>
+      <LoginModal/>
    
     </>
   )

@@ -5,6 +5,8 @@ import GameBanner from '../components/GameBanner';
 import Link from 'next/link';
 import MobileMenus from '../components/MobileMenus';
 import BarChart from '../components/BarChart';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LogiModal';
 
 export default function Gamification() { 
   return (
@@ -227,6 +229,8 @@ export default function Gamification() {
 
       <Footer/>
       <MobileMenus/>
+      <SignupModal/>
+      <LoginModal/>
    
     </>
   )

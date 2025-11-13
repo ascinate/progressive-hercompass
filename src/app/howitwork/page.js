@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import HowitBanner from '../components/HowitBanner';
 import Link from 'next/link';
 import MobileMenus from '../components/MobileMenus';
+import SignupModal from '../components/SignupModal';
+import LoginModal from '../components/LogiModal';
 
 export default function Howitwork() {
 
@@ -93,6 +95,8 @@ export default function Howitwork() {
 
       <Footer/>
       <MobileMenus/>
+      <SignupModal/>
+      <LoginModal/>
    
     </>
   )
