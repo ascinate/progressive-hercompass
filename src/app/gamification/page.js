@@ -15,7 +15,7 @@ export default function Gamification() {
 
          <section className="float-start w-100 mains-bodys01">
               <div className="container">
-                 <div className="row">
+                 <div className="row gy-4 gy-lg-0">
                      <div className="col-lg-4">
                         <div className="card cm-chart w-100">
                              <div className="card-body p-0">
@@ -46,7 +46,7 @@ export default function Gamification() {
                                     </div>
                                 </div>
                                 <div className="card-bodys-tabs w-100 d-block">
-                                   <div className="row row-cols-1 row-cols-lg-4">
+                                   <div className="row row-cols-1 row-cols-lg-4 gy-4 gy-lg-0">
                                       <div className="col">
                                          <div className="cart-card018 text-center">
                                             <span className="rounsd01">
@@ -196,7 +196,7 @@ export default function Gamification() {
                                 </div>
                                 <div className="card-bodys-tabs w-100 d-block">
                                     
-                                    <div className="bg-light next-text px-4 py-2 d-flex align-items-center justify-content-between w-100">
+                                    <div className="bg-light next-text px-4 py-2 d-lg-flex align-items-center justify-content-between w-100">
                                         <p> Opt-in to share your XP and appear on the community leaderboard. </p>
                                         <button className="btn btn-catrs btn-primary"> Opt In </button>
                                     </div>

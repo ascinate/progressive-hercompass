@@ -835,7 +835,7 @@ div.tags-bg015 {
 	}
 	.body-main-heading{
 		font-size: 25px;
-		line-height: 35px;
+		line-height: 30px;
 	}
 	.comons-modas h5{
 		font-size: 14px;
@@ -947,7 +947,30 @@ div.tags-bg015 {
     min-height: inherit !important;
   }
   .choose-div-pricings .btn-wffull{
-    bottom: 17px;
+    bottom: 0;
+    position: relative;
+  }
+  .choose-prats015{
+    padding: 30px 0;
+  }
+  .pricing-texr{
+    font-size: 45px;
+  }
+  .choose-div-pricings h3{
+    font-size: 19px;
+  }
+  .min-heights{
+    height: auto !important;
+  }
+  .cm-heads{
+    border: none !important;
+  }
+  .cm-chart .card-title {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .cm-heads{
+    height: auto;
   }
 }
 @media(max-width:560px){

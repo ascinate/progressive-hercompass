@@ -14,7 +14,7 @@ export default function Nutrition() {
       <main className="float-start w-100 main-body position-relative spacilas-card-bg">
             <section className="float-start w-100 mains-bodys01">
               <div className="container">
-                 <div className="row">
+                 <div className="row gy-4 gy-lg-0">
                      <div className="col-lg-6">
                         <div className="card cm-chart w-100">
                              <div className="card-body p-0">
@@ -92,7 +92,7 @@ export default function Nutrition() {
                                 </div>
 
                                 <div className="card-bodys-tabs pb-0 w-100 d-block pb-4">
-                                     <div className="row row-cols-1 row-cols-lg-5">
+                                     <div className="row gy-4 gy-lg-0 row-cols-1 row-cols-lg-5">
                                          <div className="col">
                                              <a href="#" className="comons-menus d-inline-block w-100">
                                                  <figure>
@@ -178,7 +178,7 @@ export default function Nutrition() {
                      <div className="col-lg-12 mt-4">
                         <div className="card cm-chart w-100">
                              <div className="card-body p-0">
-                                <div className="d-flex top-botteoms justify-content-between align-items-center">
+                                <div className="d-md-flex top-botteoms justify-content-between align-items-center">
                                     <div className="lefts-head01">
                                         <h4 className="card-title"> AI Suggested Meals This Week </h4>
                                         

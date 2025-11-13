@@ -19,7 +19,7 @@ export default function Pricing() {
            <div className="container">
                   <h2 className="main-heading body-main-heading text-center"> HerCompassAI Pricing Plan Comparison 1 Free (Freemium) – “Start Your Journey” </h2>
                  
-                  <div className="row row-cols-1 row-cols-lg-3 pricings-tabs01 gy-4 gx-lg-5 mt-5">
+                  <div className="row row-cols-1 row-cols-lg-3 pricings-tabs01 gy-4 gx-lg-5 mt-2 mt-lg-5">
                       <div className="col">
                          <div className="choose-div-pricings d-inline-block w-100">
                             <h3> Basic Plan </h3>
