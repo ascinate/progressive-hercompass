@@ -21,52 +21,16 @@ export default function Home() {
   const pricings = [
     { id: 1, price: 'Free' , title: 'Freemium' , link:'/contact', description: 'New users exploring tracking basics', text:"Get Started" }, 
     { id: 2, price: 'Contact us' , link:'/contact', title: 'Mid' , description: 'Couples starting AI + partner support', text:"Get Started" },  
-    { id: 3, price: '$9.99/mo' , link:'/contact', title: 'Premium' , description: 'Couples seeking personalization,  Forecasts, and voice', text:"Tor Premium" },
-    { id: 4, price: 'Contact us' , link:'/contact', title: 'Enterprise' , description: 'Clinics, organizations, research partners, Export features', text:"Contact Sales" },
+   
   ];
   
   return (
     <>
       <Navication/>
       <HomeBanner/>
-      <main className="float-start w-100 main-body position-relative">
+      <main className="float-start w-100 main-body position-relative mt-5 pt-5">
        
 
-        <section className="float-start comunnite-section-div w-100 bg-white my-4">
-           <div className="container">
-              <div className="row gy-4 gx-lg-5">
-                 <div className="col-lg-8">
-                    <h2 className="main-heading"> A Community That Understands </h2>
-                    <p className="text-sub-paara mt-3"> Join moderated forums, expert AMAs and partner
-                      sub-forums where women and their partners share experiences, tips,
-                       and support - guided by clinicians. </p>
-                    <ul className="list-fe">
-                      <li>
-                         Topic-based groups (peri, menopause, post)
-                      </li>
-                      <li>
-                         Men's Sub-Forum and Men's Academy
-                      </li>
-                      <li>
-                         Moderated expert Q&As
-                      </li>
-                    </ul>
-                    <a href="#" className="btn mt-4 btn-explores btn-success cm-cards-btn"> Explore the Community </a>
-                 </div>
-                 <div className="col-lg-4">
-                    <div className="revices-div bg-white">
-                       <h5> From Our Members </h5>
-                       <div className="items-revics">
-                          <p> "Because of HerCompassAl, my partner actually gets what I'm going through." — Maria, 47 </p>
-                       </div>
-                       <div className="items-revics">
-                          <p> "The digest dashboard helped me know how to support instead of just guessing." -John, 51 </p>
-                       </div>
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </section>
 
         <section className="how-its-works-sections float-start w-100 bg-light">
             <div className="container">
@@ -91,7 +55,7 @@ export default function Home() {
                <h2 className="main-heading text-center"> Pricing </h2>
                <p className="text-center text-sub-paara mt-2"> Free tracking for life. Premium removes limits and unlocks partner features,
                    Al forecasts, and full personalization. </p>
-               <div className="row row-cols-1 row-cols-lg-4 pricings-tablesd01 gy-4 mt-4">
+               <div className="row row-cols-1 row-cols-lg-4 pricings-tablesd01 justify-content-center gy-4 mt-4">
                    {pricings.map((type) => (
                       <div className='col' key={type.id}>
                           <div className="pricings-tags d-inline-block w-100">
@@ -220,31 +184,8 @@ export default function Home() {
                      </div>
 
 
-                     <div className="accordion-item">
-                        <h2 className="accordion-header" id="headingThree">
-                           <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree5u" aria-expanded="false" aria-controls="collapseThree">
-                             Q9: Can I export my data for my doctor?
-                           </button>
-                        </h2>
-                        <div id="collapseThree5u" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                           <div className="accordion-body">
-                               <p> Yes. You can export charts and reports as PDF/CSV. </p>
-                           </div>
-                        </div>
-                     </div>
+                     
 
-                     <div className="accordion-item">
-                        <h2 className="accordion-header" id="headingThree">
-                           <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree6u" aria-expanded="false" aria-controls="collapseThree">
-                             Q10: Is the community moderated?
-                           </button>
-                        </h2>
-                        <div id="collapseThree6u" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                           <div className="accordion-body">
-                               <p> Yes. All forums are monitored for safety, empathy, and respect. </p>
-                           </div>
-                        </div>
-                     </div>
 
 
                   </div>

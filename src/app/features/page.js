@@ -69,22 +69,7 @@ export default function Features() {
                     </div>
                  </div>
 
-                 <div className="col">
-                    <div className="comons-modas d-inline-block coui-text015 w-100">
-                        <div className="d-flex align-items-center">
-                          <span className="ms-icons"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"></path><path d="m9 12l2 2l4-4"></path></g></svg> </span>  
-                           <h5 className="d-flex align-items-center"> Gamification  </h5>
-                        </div>
-                        <p> Earn streaks and gentle badges for healthy habits—sleep, walks, hydration, and reflection. </p>
-
-                        <ul className="d-flex m-0 p-0 align-items-center list015-div mt-3">
-                           <li> <span> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11l3 3L22 4"></path></g></svg> </span>   Evidence-based </li>
-                           <li className="ms-3"> <span> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 3v18h18"></path><path d="m19 9l-5 5l-4-4l-3 3"></path></g></svg> </span>   Trends </li>
-                        </ul>
-                        <Link href="/features" className="btn btn-loiks01 mt-3">  Learn more <i className="ri-arrow-right-line"></i> </Link>
-                         
-                    </div>
-                 </div>
+                 
 
               </div>
           </div>
@@ -366,7 +351,7 @@ export default function Features() {
          <section className='why-choose-news w-100 d-inline-block bg-light'>
               <div className='container'>
                  <div className='why-de-sections d-inline-block w-100'>
-                     <h3 className='main-heading'> 💡 Why Upgrade to Premium+ </h3>
+                     <h3 className='main-heading'> 💡 Why Upgrade </h3>
                      <p> Unlock a richer, science-backed experience designed for you and your partner. </p>
 
                      <div className='row row-cols-1 row-cols-lg-2 gy-4 mt-2'>

@@ -22,7 +22,7 @@ function HomeBanner() {
                                 </span>
                                 Start Your Free Trial
                                 </Link>
-                                <Link href="/community" className="btn joins-btn ms-1 ms-lg-3"> Join the Community </Link>
+                                
                             </div>
 
                             <ul className="mt-4 d-flex align-items-center p-0 m-0 liks-texr01">
