@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
  
 function Navication() {
    /* const menulist = [{ id: 1, title: 'Features' , link: '/features'}, { id: 2, title: 'Community' , link: '/community'},{ id: 3, title: 'How it work' , link: '/howitwork'}, {id:4, title: 'Pricing' , link: '/pricing'} ]; */
-    const menulist = [{ id: 1, title: 'Features' , link: '/features'}, { id: 3, title: 'How it work' , link: '/howitwork'}, {id:4, title: 'Pricing' , link: '/pricing'} ]; 
+    const menulist = [{ id: 1, title: 'Features' , link: '/features'}, { id: 3, title: 'How it work' , link: '/howitwork'}, {id:4, title: 'Pricing' , link: '/pricing'}, {id:5, title: 'Dashboard' , link: '/dashboard'} ]; 
     const pathname = usePathname();
     return(
      <>
