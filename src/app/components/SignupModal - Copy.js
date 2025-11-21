@@ -182,6 +182,8 @@ function SignupModal() {
                                 <input type="checkbox" name="healthConcerns" onChange={handleChange} value={h} /> {h}
                               </label>
                             ))}
+
+                            
                           </div>
                         </div>
 
